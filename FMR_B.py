@@ -5,7 +5,7 @@
 #=====================================================================
 
 """
-please see manual for how to run the script.
+please see manual for how to run the script
 
 execute script by:
 $ python3 ./FMR_B.py ./extended_gaussian_output
