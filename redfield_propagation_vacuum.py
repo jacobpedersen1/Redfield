@@ -78,7 +78,7 @@ def correlation_function(omega, sigma, gamma_k_list, gamma_g_list, freq_list, T)
     # convert the frequency unit from [cm^-1] to [Hz]
     omega *= 2 * np.pi * c
 
-    # there is no correlation at zero frequency
+    # exclude singularity
     if omega == 0:
         correlation = 0
 
