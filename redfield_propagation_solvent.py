@@ -83,7 +83,7 @@ def spectral_density_BB(omega, broadening_list_solvent, T_values, l_values, coup
     broadening_list_solvent; linewidth of solvent absorption peaks
     T_values; spherical multipole moments
     l_values; quantum number l
-    alpha_values; the coupling constants from the bosonic bath
+    alpha_values; coupling constants from the bosonic bath
     freq_list_solvent; frequencies characteristic of solvent
     """
 
