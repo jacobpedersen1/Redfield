@@ -476,8 +476,8 @@ if __name__ == '__main__':
 
     # print forward couplings:
     print("forward coupling elements:")
-    print("donor HOMO and chromophore HOMO: " + str(np.abs(f_system_orthorgonal_D_HOMO_C_HOMO[0, 1])))
-    print("chromophore LUMO and acceptor LUMO: " + str(np.abs(f_system_orthorgonal_C_LUMO_A_LUMO[0, 1])))
+    print("donor HOMO and antenna HOMO: " + str(np.abs(f_system_orthorgonal_D_HOMO_C_HOMO[0, 1])))
+    print("antenna LUMO and acceptor LUMO: " + str(np.abs(f_system_orthorgonal_C_LUMO_A_LUMO[0, 1])))
 
     # CHARGE RECOMBINATION COUPLINGS
 
@@ -492,8 +492,8 @@ if __name__ == '__main__':
 
     # print charge recombination couplings:
     print("charge recombination coupling elements:")
-    print("donor HOMO and chromophore LUMO: " + str(np.abs(f_system_orthorgonal_D_HOMO_C_LUMO[0, 1])))
-    print("chromophore HOMO and acceptor LUMO: " + str(np.abs(f_system_orthorgonal_C_HOMO_A_LUMO[0, 1])))
+    print("donor HOMO and antenna LUMO: " + str(np.abs(f_system_orthorgonal_D_HOMO_C_LUMO[0, 1])))
+    print("antenna HOMO and acceptor LUMO: " + str(np.abs(f_system_orthorgonal_C_HOMO_A_LUMO[0, 1])))
     print("donor HOMO and acceptor LUMO: " + str(np.abs(f_system_orthorgonal_D_HOMO_A_LUMO[0, 1])))
 
 # =====================================================================
